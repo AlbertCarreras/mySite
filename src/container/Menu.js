@@ -1,51 +1,49 @@
 import React, { Component } from 'react';
-import foto from '../foto.JPG';
 
 class Menu extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={foto} className="App-logo" alt="logo" />
-          <p 
-            onClick={ () => console.log("hi")} 
-          />github<p/>
-          <p 
-            onClick={ () => console.log("hi")} 
-          />projects<p/>
+      <div>
+            <div
+              onClick={() => console.log("hi")} 
+            >Albert Carreras</div>
+            <div onClick={() => console.log("hi")} 
+            >projects</div>
+            <div>
+              <a
+              href="http://bit.ly/ACGithub"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github</a>
+            </div>
+            <div>
+              <a
+              href="http://bit.ly/AlbertoCarrerasResume"
+              target="_blank"
+              rel="noopener noreferrer"
+              >resume</a>
+            </div>
+            <div>
+              <a
+              href="http://bit.ly/LinkedInCarreras"
+              target="_blank"
+              rel="noopener noreferrer"
+            >linkedin</a>
+            </div>
+            <div>
+              <a
+              href="http://bit.ly/ACMedium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >medium</a>
+            </div>
           
-          <a
-            
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            resume
-          </a>
-          <a
-            
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedin
-          </a>
-          <a
-            
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            medium
-          </a>
-          <p 
-            onClick={ () => console.log("hi")} 
-          />interests<p/>
-          <p 
-            onClick={ () => console.log("hi")} 
-          />contact<p/>
-        
-        </header>
+            <div 
+              onClick={ () => console.log("hi")} 
+            >interests</div>
+            <div
+              onClick={ () => console.log("hi")} 
+            >contact</div>
       </div>
     );
   }

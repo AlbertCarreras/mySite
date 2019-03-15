@@ -11,15 +11,16 @@ class About extends Component {
             alt="Alberto" 
           />
           <div>
-            Junior web developer in New York City.
+            Background.
             <br/>
-            Visit my GitHub or LinkedIn page to learn more about me!
+            Sustainability
             <br/>
-            Languages — JavaScript / Ruby / HTML5 / CSS3 / SQL
+            <a href="http://www.bop.nyc">Billion Oyster Project</a>
+            <a href="https://earthmatter.org/">Earth Matter</a>
+            Board Games
             <br/>
-            Frameworks, libraries & more​ — React / Redux / Thunk / Node.js / React Native / Rails / SASS / Git
+            Music
             <br/>
-            Non-technical — Sketch / Illustrator / Photoshop / InDesign / Native Spanish Language
           </div>
 
       </div>

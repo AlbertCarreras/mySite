@@ -1,33 +1,43 @@
 import React, { Component } from 'react';
 import Menu from './Menu'
 import About from './About'
+import Interests from './Interests'
+import Contact from './Contact'
 
 
 class AppContainer extends Component {
   state = {
-    selected: 0
+    selected: 'About'
   }
 
   //props function to Menu
-  selectMenu = (option) => {
+  selectFunc = (option) => {
     this.setState({
       selected: option
     })
   }
   
   //selector for container rendering
-  displayContainer = () => this.state.selected === 0 ? <About /> : null
-
+  displayContainer = () => {
+    switch(this.setState.selected) {
+      case 'About':
+        return <About/>
+      case 'Interests':
+        return <Interests /> 
+      case 'Contact':
+        return <Contact /> 
+      default:
+        return <About/>
+    }
+  }
   render() {
     return (
-      <div>
-        <Menu 
-          selected={this.state.selected}
-          selectMenu={this.selectMenu}
+      <div className='main-container'>
+        <Menu
+        selected={this.state.selected}
+        selectFunc={this.selectFunc}
         />
-        <div>
-          {this.displayContainer()}
-        </div>
+        {this.displayContainer()}
       </div>
     );
   }

@@ -4,7 +4,7 @@ import AppContainer from './container/AppContainer';
 class App extends Component {
   render() {
     return (
-        <AppContainer/>
+        <AppContainer />
     );
   }
 }
