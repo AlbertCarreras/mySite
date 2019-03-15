@@ -3,6 +3,7 @@ import Menu from './Menu'
 import About from './About'
 import Interests from './Interests'
 import Contact from './Contact'
+import Projects from './Projects'
 
 
 class AppContainer extends Component {
@@ -19,11 +20,13 @@ class AppContainer extends Component {
   
   //selector for container rendering
   displayContainer = () => {
-    switch(this.setState.selected) {
+    switch(this.state.selected) {
       case 'About':
         return <About/>
       case 'Interests':
         return <Interests /> 
+      case 'Projects':
+        return <Projects /> 
       case 'Contact':
         return <Contact /> 
       default:

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
 class Menu extends Component {
+
   render() {
     return (
       <div>
             <div
-              onClick={() => console.log("hi")} 
+            onClick={ () => this.props.selectFunc('About') }
             >Albert Carreras</div>
-            <div onClick={() => console.log("hi")} 
+            <div 
+            onClick={ () => this.props.selectFunc('Projects') }
             >projects</div>
             <div>
               <a
@@ -39,10 +41,10 @@ class Menu extends Component {
             </div>
           
             <div 
-              onClick={ () => console.log("hi")} 
+            onClick={ () => this.props.selectFunc('Interests') }
             >interests</div>
             <div
-              onClick={ () => console.log("hi")} 
+            onClick={ () => this.props.selectFunc('Contact') }
             >contact</div>
       </div>
     );

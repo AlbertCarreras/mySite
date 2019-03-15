@@ -4,6 +4,9 @@
 .sub-container {
   display: flex;
 }
+.project-container {
+  flex-direction: column;
+}
 .photo {
   height: 40vmin;
   border-radius: 20px;
