@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import foto from '../foto.JPG';
 
 class About extends Component {
   render() {
@@ -23,7 +22,7 @@ class About extends Component {
             </div>
             <div>Hosted in Heroku, wait a few seconds until the server wakes up! (user: tester & password: 12345678)</div>
             <div>A user-friendly app that sorts users by distance and filters them by common interests/hobbies. Users connect with each other via private chats.</div>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yG3gEc1bC60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title='SUPP' width="560" height="315" src="https://www.youtube-nocookie.com/embed/yG3gEc1bC60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div>
               <div>Front-end</div>
                 React with Redux & Redux Thunk
@@ -56,7 +55,7 @@ class About extends Component {
             </div>
             <div>Hosted in Heroku, wait a few seconds until the server wakes up!</div>
             <div>A piano app to create, save, and share simple piano songs.</div>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nU9_5UOYNgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title='PIANO' width="560" height="315" src="https://www.youtube-nocookie.com/embed/nU9_5UOYNgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div>
               <div>Front-end</div>
               AudioContext Web API for sounds
@@ -74,7 +73,7 @@ class About extends Component {
               >GITHUB</a> 
             </div>
             <div>An app for people to organize and join board games events as well as to save a list of board games they own in their public profile.</div>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N87whQBbK9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title='BOARDGAME' width="560" height="315" src="https://www.youtube-nocookie.com/embed/N87whQBbK9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div>
             <div>Ruby on Rails with MVC</div>
             - Semantics UI for front-end design
