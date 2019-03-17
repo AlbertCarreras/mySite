@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Menu from './Menu'
 import About from './About'
 import Interests from './Interests'
-import Contact from './Contact'
 import Projects from './Projects'
 
 
@@ -27,8 +26,6 @@ class AppContainer extends Component {
         return <Interests /> 
       case 'Projects':
         return <Projects /> 
-      case 'Contact':
-        return <Contact /> 
       default:
         return <About/>
     }

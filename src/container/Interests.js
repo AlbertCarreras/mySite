@@ -10,7 +10,7 @@ class About extends Component {
             src={foto}
             alt="Alberto" 
           />
-          <div>
+          <div className='detail-container'>
             <div>Sustainability</div>
             <div>I studied environmental sciences and have always worked on sustainability projects. In NYC, I’ve been involved with several environmental and educational not-for-profits. Check the <a href="http://www.bop.nyc">Billion Oyster Project</a> and <a href="https://earthmatter.org/">Earth Matter</a> projects. They have great missions and I'm really proud of having worked with them.
             </div>

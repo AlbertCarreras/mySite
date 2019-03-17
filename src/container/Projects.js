@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     return (
-      <div className='sub-container project-container'>
+      <div className='sub-container detail-container project-container'>
           <div>
             <div>SUPP</div>
               <div>

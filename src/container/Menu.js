@@ -4,10 +4,11 @@ class Menu extends Component {
 
   render() {
     return (
-      <div>
+      <div className='menu-container'>
+            <div className='title-menu'> Albert Carreras</div>
             <div
             onClick={ () => this.props.selectFunc('About') }
-            >Albert Carreras</div>
+            >about</div>
             <div 
             onClick={ () => this.props.selectFunc('Projects') }
             >projects</div>
@@ -43,9 +44,6 @@ class Menu extends Component {
             <div 
             onClick={ () => this.props.selectFunc('Interests') }
             >interests</div>
-            <div
-            onClick={ () => this.props.selectFunc('Contact') }
-            >contact</div>
       </div>
     );
   }

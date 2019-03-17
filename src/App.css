@@ -1,12 +1,43 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-container {
   display: flex;
+  margin: 50px;
 }
+
 .sub-container {
   display: flex;
 }
-.project-container {
-  flex-direction: column;
+
+.menu-container {
+  min-width: 40vmin;
 }
+
+.title-menu {
+  font-size: 5vmin;
+}
+
+.title-menu ~ div {
+  font-size: 4vmin;
+}
+
+.title-menu ~ div:hover, .title-menu ~ div > a:hover {
+  font-size: 5vmin;
+  color: #003366;
+}
+
+.detail-container {
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+.project-container > div {
+  margin: 0px 0px 50px 0px;
+}
+
 .photo {
   height: 40vmin;
   border-radius: 20px;
