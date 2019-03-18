@@ -11,17 +11,25 @@ class About extends Component {
             alt="Alberto" 
           />
           <div className='detail-container interests'>
-            <div><b>Sustainability — </b>I studied environmental sciences and have always worked on sustainability projects. In NYC, I’ve been involved with several environmental and educational not-for-profits. Check the <a        className='links'
-            href="http://www.bop.nyc">Billion Oyster Project</a> and <a            className='links'
-            href="https://earthmatter.org/">Earth Matter</a> projects. They have great missions and I'm really proud of having worked with them.
+            <div><b>Sustainability — </b>I studied environmental sciences and have always worked on sustainability projects. In NYC, I’ve been involved with several environmental and educational not-for-profits. Check the <a        
+              className='links'
+              href="http://www.bop.nyc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Billion Oyster Project</a> and <a
+              className='links'
+              href="https://earthmatter.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Earth Matter</a> projects. They have great missions and I'm really proud of having worked with them.
             </div>
             <div><b>Board Games — </b>I am a board game enthusiast. I'm always down to play Terraforming Mars, Cosmic Encounters, Dominion, Carcassonne, Photosynthesis, Hansa Teutonica. You can find me many Satudays at The Brooklyn Strategist. And I won't miss Metatopia and PAX Unplugged.
             </div>
             <div><b>Writing — </b>I enjoy writing. Check some of the poems I wrote for the annual publication <a 
-            className='links'
-            href="https://nanorelatosmagicos.com0"
-            target="_blank"
-            rel="noopener noreferrer"  
+              className='links'
+              href="https://nanorelatosmagicos.com"
+              target="_blank"
+              rel="noopener noreferrer"  
             >Nanorelatos mágicos</a><br/></div>
             <div>
                 <a 

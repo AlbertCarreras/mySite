@@ -3,18 +3,27 @@ import Menu from './Menu'
 import About from './About'
 import Interests from './Interests'
 import Projects from './Projects'
-import Resume from './Resume'
+import Modal from './Modal'
 
 
 class AppContainer extends Component {
   state = {
-    selected: 'About'
+    selected: 'About',
+    modal: false,
+    modalInfo: null
   }
 
   //props function to Menu
   selectFunc = (option) => {
     this.setState({
       selected: option
+    })
+  }
+
+  selectModal = (info) => {
+    this.setState({
+      modal: !this.state.modal,
+      modalInfo: info
     })
   }
   
@@ -27,18 +36,23 @@ class AppContainer extends Component {
         return <Interests /> 
       case 'Projects':
         return <Projects /> 
-      case 'Resume':
-        return <Resume /> 
       default:
         return <About/>
     }
   }
+
   render() {
     return (
       <div className='main-container'>
+        <Modal 
+          modalDisplay={this.state.modal}
+          selectModal={this.selectModal}
+          selectInfo={this.state.modalInfo}
+        />
         <Menu
-        selected={this.state.selected}
-        selectFunc={this.selectFunc}
+          selected={this.state.selected}
+          selectFunc={this.selectFunc}
+          selectModal={this.selectModal}
         />
         {this.displayContainer()}
       </div>

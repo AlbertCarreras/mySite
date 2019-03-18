@@ -13,7 +13,7 @@ class Menu extends Component {
             onClick={ () => this.props.selectFunc('Projects') }
             >projects</div>
             <div 
-            onClick={ () => this.props.selectFunc('Resume') }
+            onClick={ () => this.props.selectModal('Resume') }
             >resume</div>
             <div>
               <a
@@ -29,14 +29,9 @@ class Menu extends Component {
               rel="noopener noreferrer"
             >linkedin</a>
             </div>
-            <div>
-              <a
-              href="http://bit.ly/ACMedium"
-              target="_blank"
-              rel="noopener noreferrer"
-            >medium</a>
-            </div>
-          
+            <div 
+            onClick={ () => this.props.selectModal('Medium') }
+            >medium</div>          
             <div 
             onClick={ () => this.props.selectFunc('Interests') }
             >interests</div>
