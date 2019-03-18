@@ -1,8 +1,30 @@
+/* ACROSS-APP */
 a {
   text-decoration: none;
   color: black;
 }
 
+.links {
+  color: #003366;
+  font-weight: bold;
+}
+
+.photo {
+  height: 40vmin;
+  border-radius: 20px;
+}
+
+.title-menu ~ div:hover, .title-menu ~ div > a:hover, .project-title {
+  font-size: 5vmin;
+  color: #003366;
+}
+
+.section, .about > div, .interests > div {
+  font-size: 2.5vmin;
+  margin: 10px 0px;
+}
+
+/* CONTAINERS */
 .main-container {
   display: flex;
   margin: 50px;
@@ -12,6 +34,12 @@ a {
   display: flex;
 }
 
+.detail-container {
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+/* MENU */
 .menu-container {
   min-width: 40vmin;
 }
@@ -24,21 +52,37 @@ a {
   font-size: 4vmin;
 }
 
-.title-menu ~ div:hover, .title-menu ~ div > a:hover {
-  font-size: 5vmin;
-  color: #003366;
-}
-
-.detail-container {
-  flex-direction: column;
-  margin: 0px 50px;
-}
-
+/* PROJECTS */
 .project-container > div {
   margin: 0px 0px 50px 0px;
+  border-radius: 10px;
 }
 
-.photo {
-  height: 40vmin;
-  border-radius: 20px;
+.project-title {
+  font-weight: bold;
+}
+
+.project-note {
+  padding: 10px opx;
+  font-style: oblique;
+  font-size: 2vmin;
+}
+
+.video-container {
+  padding: 20px;
+}
+
+.subtitle {
+  font-size: 3vmin;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+/* ABOUT */
+.about > div:nth-child(1), .about > div:nth-child(2) {
+  font-size: 3.5vmin;
+}
+
+.about-skills > div {
+  margin: 10px 0px;
 }

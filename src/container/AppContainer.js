@@ -3,6 +3,7 @@ import Menu from './Menu'
 import About from './About'
 import Interests from './Interests'
 import Projects from './Projects'
+import Resume from './Resume'
 
 
 class AppContainer extends Component {
@@ -26,6 +27,8 @@ class AppContainer extends Component {
         return <Interests /> 
       case 'Projects':
         return <Projects /> 
+      case 'Resume':
+        return <Resume /> 
       default:
         return <About/>
     }

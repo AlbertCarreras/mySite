@@ -10,32 +10,31 @@ class About extends Component {
             src={foto}
             alt="Alberto" 
           />
-          <div className='detail-container'>
+          <div className='about detail-container'>
             <div>
               Junior web developer in New York City.
             </div>
             <div>
               Visit my <a
+              className='links'
               href="http://bit.ly/ACGithub"
               target="_blank"
               rel="noopener noreferrer"
               >Github</a> or <a
+              className='links'
               href="http://bit.ly/LinkedInCarreras"
               target="_blank"
               rel="noopener noreferrer"
               >Linkedin</a> page to learn more about me!
             </div>
-            <div>
-              Languages — JavaScript / Ruby / HTML5 / CSS3 / SQL
+            <div className='about-skills'>
+              <div><b>Languages — </b>JavaScript / Ruby / HTML5 / CSS3 / SQL</div>
+              <div><b>Frameworks, libraries & more​ — </b>React / Redux / Thunk / Node.js / React Native / Rails / SASS / Git</div>
+              <div><b>Non-technical — </b>Sketch / Illustrator / Photoshop / InDesign / Native Spanish Language</div>
             </div>
             <div>
-              Frameworks, libraries & more​ — React / Redux / Thunk / Node.js / React Native / Rails / SASS / Git
-            </div>
-            <div>
-              Non-technical — Sketch / Illustrator / Photoshop / InDesign / Native Spanish Language
-            </div>
-            <div>
-              Contact me <a
+              Contact me — <a
+              className='links'
               href="mailto:acarrerasc+developer@gmail.com"
               target="_blank"
               rel="noopener noreferrer"

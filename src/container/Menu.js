@@ -5,26 +5,22 @@ class Menu extends Component {
   render() {
     return (
       <div className='menu-container'>
-            <div className='title-menu'> Albert Carreras</div>
+            <div className='title-menu'><b>Albert Carreras</b></div>
             <div
             onClick={ () => this.props.selectFunc('About') }
             >about</div>
             <div 
             onClick={ () => this.props.selectFunc('Projects') }
             >projects</div>
+            <div 
+            onClick={ () => this.props.selectFunc('Resume') }
+            >resume</div>
             <div>
               <a
               href="http://bit.ly/ACGithub"
               target="_blank"
               rel="noopener noreferrer"
               >github</a>
-            </div>
-            <div>
-              <a
-              href="http://bit.ly/AlbertoCarrerasResume"
-              target="_blank"
-              rel="noopener noreferrer"
-              >resume</a>
             </div>
             <div>
               <a
