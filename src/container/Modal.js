@@ -13,13 +13,6 @@ class Modal extends Component {
         width="640" 
         height="840"
         ></iframe>
-      case 'Medium':
-        return <iframe 
-                  className='resume'
-                  width='100%' height='600px'
-                  src="http://bit.ly/ACMedium" 
-                  title="Medium page">
-                </iframe>
       default:
         return null
     }

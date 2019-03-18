@@ -29,9 +29,13 @@ class Menu extends Component {
               rel="noopener noreferrer"
             >linkedin</a>
             </div>
-            <div 
-            onClick={ () => this.props.selectModal('Medium') }
-            >medium</div>          
+            <div>
+              <a
+              href="http://bit.ly/ACMedium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >medium</a>
+            </div>         
             <div 
             onClick={ () => this.props.selectFunc('Interests') }
             >interests</div>
