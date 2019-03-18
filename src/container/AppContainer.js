@@ -4,7 +4,7 @@ import About from './About'
 import Interests from './Interests'
 import Projects from './Projects'
 import Modal from './Modal'
-
+import foto from '../mini_photo.jpg';
 
 class AppContainer extends Component {
   state = {
@@ -49,11 +49,21 @@ class AppContainer extends Component {
           selectModal={this.selectModal}
           selectInfo={this.state.modalInfo}
         />
-        <Menu
+        <div className='menu-container'>
+          <Menu
           selected={this.state.selected}
           selectFunc={this.selectFunc}
           selectModal={this.selectModal}
-        />
+          />
+          <div className="circle-photo-container">
+            <img 
+              className="circle-photo"
+              src={foto}
+              alt="Alberto" 
+            />
+          </div>
+          
+        </div>
         {this.displayContainer()}
       </div>
     );

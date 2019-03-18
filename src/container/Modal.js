@@ -10,8 +10,6 @@ class Modal extends Component {
         title='Resume pdf' 
         src="https://drive.google.com/file/d/10abHpP0R7Px4_nTEIeQYrG4D88ZhuEFZ/preview" 
         frameborder="0" 
-        width="640" 
-        height="840"
         ></iframe>
       default:
         return null
@@ -27,11 +25,12 @@ class Modal extends Component {
     return (
       <div className="modal" style={divStyle}>
         <div className="modal-content">
+          {this.displayInfo(this.props.selectInfo)}
           <span 
             className="close"
             onClick={ () => this.props.selectModal() }
-            >&times;</span>
-            {this.displayInfo(this.props.selectInfo)}
+            >&times;
+          </span>
         </div>
       </div>
     );

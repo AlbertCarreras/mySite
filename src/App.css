@@ -40,7 +40,7 @@ a {
 }
 
 /* MENU */
-.menu-container {
+.menu-list-container {
   min-width: 40vmin;
 }
 
@@ -50,6 +50,10 @@ a {
 
 .title-menu ~ div {
   font-size: 4vmin;
+}
+
+.circle-photo {
+  display: none;
 }
 
 /* PROJECTS */
@@ -109,6 +113,9 @@ a {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* The Close Button */
@@ -124,4 +131,41 @@ a {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.resume {
+  width: 640px;
+}
+
+/* RESPONSIVENESS. */
+@media screen and (max-width: 900px) {
+  .photo {
+    display: none;
+  }
+
+  .circle-photo {
+    display: block;
+    height: 30vmin;
+    border-radius: 100px;
+  }
+
+  .circle-photo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .detail-container {
+    margin: 20px 0px 0px 0px;
+  }
 }

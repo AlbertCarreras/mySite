@@ -4,7 +4,7 @@ class Menu extends Component {
 
   render() {
     return (
-      <div className='menu-container'>
+      <div className='menu-list-container'>
             <div className='title-menu'><b>Albert Carreras</b></div>
             <div
             onClick={ () => this.props.selectFunc('About') }
