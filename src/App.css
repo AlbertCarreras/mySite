@@ -19,7 +19,7 @@ a {
   color: #003366;
 }
 
-.section, .about > div, .interests > div {
+li, .section, .about > div, .interests > div {
   font-size: 2.5vmin;
   margin: 10px 0px;
 }
@@ -63,6 +63,7 @@ a {
 }
 
 .project-title {
+  font-size: 5vmin;
   font-weight: bold;
 }
 
@@ -70,6 +71,10 @@ a {
   padding: 10px opx;
   font-style: oblique;
   font-size: 2vmin;
+}
+
+.project-links {
+  font-size: 3vmin;
 }
 
 .video-container {
@@ -82,8 +87,8 @@ a {
   font-weight: bold;
 }
 
-/* ABOUT */
-.about > div:nth-child(1), .about > div:nth-child(2) {
+/* ABOUT & INTERESTS*/
+.about > div:nth-child(1), .about > div:nth-child(2), .interests > div {
   font-size: 3.5vmin;
 }
 

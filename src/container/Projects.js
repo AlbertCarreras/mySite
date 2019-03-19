@@ -6,26 +6,26 @@ class About extends Component {
       <div className='sub-container detail-container project-container'>
           <div>
             <div className='project-title'>SUPP</div>
-              <div >
-                <a 
-                className='links'
-                href="https://github.com/AlbertCarreras/supp-client"
-                target="_blank"
-                rel="noopener noreferrer"  
-                >GITHUB Front-end</a> | 
-                <a 
-                className='links'
-                href="https://github.com/AlbertCarreras/supp-server"
-                target="_blank"
-                rel="noopener noreferrer"
-                >GITHUB Back-end</a> | 
-                <a 
-                className='links'
-                href="https://albertcarreras.github.io/supp-client/home"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Site </a>
-              </div>
+            <div className='project-links'>
+              <a 
+              className='links'
+              href="https://github.com/AlbertCarreras/supp-client"
+              target="_blank"
+              rel="noopener noreferrer"  
+              >GITHUB Front-end</a> | 
+              <a 
+              className='links'
+              href="https://github.com/AlbertCarreras/supp-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GITHUB Back-end</a> | 
+              <a 
+              className='links'
+              href="https://albertcarreras.github.io/supp-client/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Site </a>
+            </div>
             <div
             className='project-note'
             >Hosted in Heroku, wait a few seconds until the server wakes up! (user: tester & password: 12345678)</div>
@@ -63,7 +63,7 @@ class About extends Component {
 
           <div>
             <div className='project-title'>Piano Friend</div>
-              <div>
+              <div className='project-links'>
                 <a               
                 className='links'
                 href="https://github.com/AlbertCarreras/piano-app"
@@ -110,7 +110,7 @@ class About extends Component {
 
         <div>
           <div className='project-title'>Board Games with Strangers</div>
-          <div>
+          <div className='project-links'>
             <a 
             className='links'
             href="https://github.com/AlbertCarreras/piano-app"
