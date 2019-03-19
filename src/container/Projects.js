@@ -33,8 +33,6 @@ class About extends Component {
             <div className='video-container'>
               <iframe 
                 title='SUPP' 
-                width="560" 
-                height="315" 
                 src="https://www.youtube-nocookie.com/embed/yG3gEc1bC60" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
