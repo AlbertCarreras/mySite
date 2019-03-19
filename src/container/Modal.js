@@ -6,11 +6,11 @@ class Modal extends Component {
     switch(info) {
       case 'Resume':
         return <iframe 
-        className='resume'
-        title='Resume pdf' 
-        src="https://drive.google.com/file/d/10abHpP0R7Px4_nTEIeQYrG4D88ZhuEFZ/preview" 
-        frameborder="0" 
-        ></iframe>
+            className='resume'
+            title='Resume pdf' 
+            src="https://drive.google.com/file/d/10abHpP0R7Px4_nTEIeQYrG4D88ZhuEFZ/preview" 
+            frameborder="0" 
+          ></iframe>
       default:
         return null
     }
