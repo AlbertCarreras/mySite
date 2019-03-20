@@ -4,6 +4,7 @@ import foto from '../foto.JPG';
 class About extends Component {
   render() {
     return (
+      
       <div className='sub-container'>
           <img 
             className="photo"

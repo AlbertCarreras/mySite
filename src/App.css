@@ -45,7 +45,9 @@ li, .section, .about > div, .interests > div {
 }
 
 .title-menu {
+  font-family: "GlacialIndifferenceBold";
   font-size: 5vmin;
+  letter-spacing: 3px;
 }
 
 .title-menu ~ div {
