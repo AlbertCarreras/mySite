@@ -5,15 +5,15 @@ class Menu extends Component {
   render() {
     return (
       <div className='menu-list-container'>
-            <div className='title-menu'><b>ALBERT CARRERAS</b></div>
+            <div className='title-menu'>
+              <b>ALBERT CARRERAS</b>
+            </div>
+            
             <div
-            onClick={ () => this.props.selectFunc('About') }
-            >about</div>
-            <div 
-            onClick={ () => this.props.selectFunc('Projects') }
+              onClick={() => this.props.selectFunc('Projects')}
             >projects</div>
             <div 
-            onClick={ () => this.props.selectModal('Resume') }
+              onClick={() => this.props.selectModal('Resume')}
             >resume</div>
             <div>
               <a
@@ -35,10 +35,11 @@ class Menu extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >medium</a>
-            </div>         
-            <div 
-            onClick={ () => this.props.selectFunc('Interests') }
-            >interests</div>
+            </div>
+
+            <div
+            onClick={ () => this.props.selectFunc('About') }
+            >about</div>
       </div>
     );
   }

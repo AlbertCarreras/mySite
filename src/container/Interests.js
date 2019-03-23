@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import foto from '../foto.JPG';
 
 class About extends Component {
   render() {
     return (
       
-      <div className='sub-container'>
-          <img 
-            className="photo"
-            src={foto}
-            alt="Alberto" 
-          />
-          <div className='detail-container interests'>
-            <div><b>Sustainability — </b>I studied environmental sciences and have always worked on sustainability projects. In NYC, I’ve been involved with several environmental and educational not-for-profits. Check the <a        
+      <div >          
+            <p> I'm interested in building tools that make organizations more sustainable and efficient: fostering the communities they serve.</p>
+            
+            <p> I believe communication, close collaboration, and humor are the key ingredients for strong teams.</p>
+
+            <p> I worked in sustainability for more than 10 years and have always been inspired by mission-driven projects with a positive social impact.</p>
+            
+            <p> In the city, I’ve worked with several environmental and educational not-for-profits. Donate to the <a        
               className='links'
               href="http://www.bop.nyc"
               target="_blank"
@@ -22,17 +21,29 @@ class About extends Component {
               href="https://earthmatter.org/"
               target="_blank"
               rel="noopener noreferrer"
-            >Earth Matter</a> projects. They have great missions and I'm really proud of having worked with them.
-            </div>
-            <div><b>Board Games — </b>I am a board game enthusiast. I'm always down to play Terraforming Mars, Cosmic Encounters, Dominion, Carcassonne, Photosynthesis, Hansa Teutonica. You can find me many Satudays at The Brooklyn Strategist. And I won't miss Metatopia and PAX Unplugged.
-            </div>
-            <div><b>Writing — </b>I enjoy writing. Check some of the poems I wrote for the annual publication <a 
+            >Earth Matter</a>. I'm proud of the work I've done to realize their missions.</p>
+
+            <p> Barcelona may be home, but in 2013 I moved across the ocean to start a shared life project in New York. I keep my Spanish roots on my kitchen shelves and with my preference for expresso.</p>
+
+            <p>I'm a board game enthusiast who's always down to discover and play new games, moreso if they are cooperative. You can find me many Satudays at The Brooklyn Strategist and I never miss the annual Metatopia and PAX Unplugged conferences. Check out our curated <a 
+              className='links'
+              href="https://www.pinterest.com/acarrerasc/board-games/"
+              target="_blank"
+              rel="noopener noreferrer"  
+            >family board game collection</a>.</p>
+
+            <p>I relax by writing, drawing, and often explore other <a 
+            className='links'
+            href="https://www.pinterest.com/acarrerasc/art/"
+            target="_blank"
+            rel="noopener noreferrer"  
+          >disciplines</a>. Here are some poems I wrote for the annual publication <a 
               className='links'
               href="https://nanorelatosmagicos.com"
               target="_blank"
               rel="noopener noreferrer"  
-            >Nanorelatos mágicos</a><br/></div>
-            <div>
+            >Nanorelatos mágicos</a><br/></p>
+            <ul>
                 <a 
                 className='links'
                 href="https://www.dropbox.com/s/fipfvbpopihwij1/Nano-relatos.pdf?dl=0"
@@ -57,9 +68,8 @@ class About extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 >- Nací en el Mediterráneo</a>
-            </div>
-          </div>
-        </div>
+            </ul>
+      </div>
     );
   }
 }

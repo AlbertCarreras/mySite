@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './Menu'
 import About from './About'
-import Interests from './Interests'
 import Projects from './Projects'
 import Modal from './Modal'
 import foto from '../mini_photo.jpg';
@@ -32,8 +31,6 @@ class AppContainer extends Component {
     switch(this.state.selected) {
       case 'About':
         return <About/>
-      case 'Interests':
-        return <Interests /> 
       case 'Projects':
         return <Projects /> 
       default:

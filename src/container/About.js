@@ -1,7 +1,27 @@
 import React, { Component } from 'react';
+import Interests from './Interests'
 import foto from '../foto.JPG';
 
 class About extends Component {
+
+
+  state = {
+    more: false
+  }
+
+  toggle = () => {
+    this.setState({
+      more: !this.state.more
+    })
+  }
+
+  displayMore = () => {
+    if (this.state.more) {
+      return <Interests />
+    }
+  }
+
+
   render() {
     return (
       <div className='sub-container'>
@@ -12,7 +32,10 @@ class About extends Component {
           />
           <div className='about detail-container'>
             <div>
-              Junior web developer in New York City.
+              <h2>I'm Albert, nice to meet you.</h2>
+            </div>
+            <div>
+              Web Developer
             </div>
             <div>
               Visit my <a
@@ -40,6 +63,18 @@ class About extends Component {
               rel="noopener noreferrer"
               >acarrerasc+developer@gmail.com</a>
             </div>
+            {this.state.more 
+              ? <span 
+                  role="img"
+                  aria-label="Close"
+                  onClick={this.toggle}
+                  >➖</span>
+              : <span 
+                  role="img"
+                  aria-label="Open"
+                  onClick={this.toggle}
+                  >➕</span>}
+            {this.displayMore()}
           </div>
       </div>
     );
