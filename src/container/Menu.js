@@ -6,7 +6,7 @@ class Menu extends Component {
     return (
       <div className='menu-list-container'>
             <div className='title-menu'>
-              <b>ALBERT CARRERAS</b>
+              <b>ALBERTO CARRERAS</b>
             </div>
             
             <div

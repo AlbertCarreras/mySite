@@ -32,7 +32,7 @@ class About extends Component {
           />
           <div className='about detail-container'>
             <div>
-              <h2>I'm Albert, nice to meet you.</h2>
+              <h2>I'm Alberto, nice to meet you.</h2>
             </div>
             <div>
               Web Developer
