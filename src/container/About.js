@@ -35,7 +35,7 @@ class About extends Component {
               <h2>I'm Alberto, nice to meet you.</h2>
             </div>
             <div>
-              Web Developer
+              Apprentice Engineer @ Pinterest
             </div>
             <div>
               Visit my <a
